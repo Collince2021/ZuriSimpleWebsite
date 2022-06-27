@@ -1,0 +1,88 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#home{
+  font-size:20px;
+  background-image:url("back.jpeg");
+  background-blend-mode:screen;
+  
+
+}
+#homeMain{
+  color:red;
+  font-weight:900;
+}
+*{
+  font-family:sans-serif,"times new roman",serif;
+}
+a:link{
+  color:blue;
+  font-weight:bold;
+  font-style:italic;
+}
+a:visited{color:indigo; 
+         font-weight:bolder;
+         font-style:italic;}
+
+a:link:active{
+  color:red;
+  font: size 20px;
+  text-transform:uppercase;
+}
+a:visited:active{
+  color:midnightblue;
+  font-size:30px;}
+a:after{
+  content:"\21d2 click here";
+}
+.flexbox{
+  display:flex;
+  flex-wrap:wrap;
+}
+form{
+  border:2px solid red;
+  border-radius:5%;
+  background-color:lavender;
+  color:teal;
+  padding:10%;
+
+}
+#contact,#login,#registration{
+  background: oliveDrab;
+  background-image:url("back.jpeg");
+  background-blend-mode:screen;
+}
+h1,h2{
+  text-align:center;
+  color:deeppink
+}
+#myImage{
+  text-align:center;
+}
+#contactbutton{
+  background:aqua;
+    border-radius: 11px;
+    border: 1px solid yellow;
+    cursor: pointer;
+   padding:-20px;
+    box-shadow:5px 5px orange;
+  animation:blinking 2s infinite;
+           
+}
+@keyframes blinking{
+  0%{opacity:1;}
+  50%{opacity:2;color:gold;}
+  75%{opacity:1;color:indigo;}
+  100%{opacity:0;color:darkorange;}
+} #foot:after{
+  content:"";
+  }
+#foot:before{
+  content:"\21d2 click here ";
+}
+
+
+
+
+
